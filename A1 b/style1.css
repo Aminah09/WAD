@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: 'Poppins';
+}
+
+h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr td:first-child {
+  width: 50%;
+  font-weight: bold;
+  font-size: 23px;
+  color: #B4886B;
+}
+
+table tr td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  vertical-align: top;
+}
+
+table tr td span {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+table tr:nth-child(even) {
+  background-color:   #EEE8AA ;
+}
+
+table tr:hover {
+  background-color: #FAFAD2;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}

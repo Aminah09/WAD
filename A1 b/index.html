@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CONTACT FORM</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+
+  <body>
+    <div class="form-container">
+    <form id="studentForm">
+      <h2>Contact Form</h2>
+      <hr class="h">
+      <h3>Got a Question?</h3>
+      <label>Enter First Name :</label>
+      <input type="text" id="fname" class="form-control" required />
+
+      <label>Enter Last Name :</label>
+      <input type="text" id="lname" class="form-control" required />
+
+      <label>Enter Email ID :</label>
+      <input type="text" id="email" class="form-control" required />
+<div class="form-radio">
+      <label>Select Gender :</label><br>
+      <input type="radio" name="rdbGender" id="rdbGender" value="Male" />Male
+      <input type="radio" name="rdbGender" id="rdbGender" value="Female" />Female
+</div>
+      <br><label>Enter Phone No :</label>
+      <input type="text" id="phone" class="form-control" required />
+
+      <label>Enter Message :</label>
+      <textarea id="message" class="form-control" required /></textarea>
+
+      <button class="btn btn-primary btn-lg" id="btnAddStudent" type="button">
+        SUBMIT
+      </button>
+    </form>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="myscript.js"></script>
+
+  </body>
+</html>

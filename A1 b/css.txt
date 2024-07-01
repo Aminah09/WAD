@@ -1,0 +1,133 @@
+<label>Select Gender :</label>
+      <input type="radio" name="rdbGender" id="rdbGender" />Male
+      <input type="radio" name="rdbGender" id="rdbGender" />Female
+
+
+this
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#fname,
+#lname,
+#email,
+#rdbGender,
+#phone,
+#message {
+  margin-left: 10px;
+}
+
+
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #555;
+}
+
+span {
+  font-weight: bold;
+  color: #777;
+}
+
+#fname,
+#lname,
+#email,
+#rdbGender,
+#phone,
+#message {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+
+
+
+
+
+.container {
+  font-size: 1.2rem;
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td span {
+  font-weight: bold;
+}
+
+#fname, #lname, #email, #rdbGender, #phone {
+  color: #666;
+}
+
+#fname::before, #lname::before, #email::before, #rdbGender::before, #phone::before, #message::before {
+  content: '';
+  display: inline-block;
+  width: 5rem;
+}
+
+#message {
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    font-size: 1.1rem;
+  }
+
+  #fname::before, #lname::before, #email::before, #rdbGender::before, #phone::before, #message::before {
+    display: block;
+    width: auto;
+    margin-bottom: 0.5rem;
+  }
+}

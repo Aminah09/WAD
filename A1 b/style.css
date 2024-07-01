@@ -1,0 +1,76 @@
+h2{
+	margin-top: -40px;
+	margin-bottom: -5px;
+	text-align: center;
+  color: grey;
+}
+h3{
+	text-align: center;
+	font-family: Lucida Calligraphy ;
+	font-size: 25px;
+	color: #DAA520;
+}
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 10px 0;
+}
+#studentForm{
+	width: 400px;
+}
+.form-container{
+	
+	display: flex;
+	justify-content: center;
+}
+.form-radio label {
+  display: block;
+  font-weight: bold;
+  
+}
+.form-radio input[type="radio"] {
+  margin-right: 10px;
+}
+.h{
+	width: 100%;
+}
+form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], textarea {
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  width: 95%;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+label {
+
+  color: #B4886B;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 22px;
+}
+button{
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0066ff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: -30px;
+}
+
