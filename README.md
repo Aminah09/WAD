@@ -8,3 +8,4 @@ SPPU Third Year IT Laboratory Practice-II (Web Application Development) Lab Assi
 #### b. Write a JavaScript Program to get the user registration data and push to array/local storage with AJAX POST method and data list in new page.
 
 ### Assignment 2
+#### a. Create version control account on GitHub and using Git commandsto create repository and push your code to GitHub.
